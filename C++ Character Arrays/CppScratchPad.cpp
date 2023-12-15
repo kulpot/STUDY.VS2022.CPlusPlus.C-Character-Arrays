@@ -9,7 +9,7 @@ using std::endl;
 
 void main()
 {
-	char chars[] = "kulpot";
+	char chars[] = "kulpot";		// implicit null terminator \0 which is the end of character string
 	string s = "kulpot";	// character array
 	cout << s << endl;
 }
