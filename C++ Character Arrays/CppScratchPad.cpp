@@ -10,9 +10,12 @@ using std::endl;
 void main()
 {
 	char chars[] = "kulpot";		// implicit null terminator \0 which is the end of character string
+	char* chars2 = chars;			// * pointer 
 	cout << chars << endl;
+	
 	//char *chars = "kulpot";
 	//cout << chars << endl;
+	
 	//string s = "kulpot";	// character array
 	//cout << s << endl;
 }
