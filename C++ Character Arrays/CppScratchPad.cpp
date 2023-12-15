@@ -9,6 +9,7 @@ using std::endl;
 
 void main()
 {
-	string s = "kulpot";
+	char chars[] = "kulpot";
+	string s = "kulpot";	// character array
 	cout << s << endl;
 }
